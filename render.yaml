@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: veronaglobal
+    env: docker
+    region: frankfurt
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /
+    dockerCommand: service postgresql start && nginx -g 'daemon off;'

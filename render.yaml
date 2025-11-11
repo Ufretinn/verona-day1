@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: verona-server
-    env: docker
-    region: frankfurt
-    plan: free
-    autoDeploy: true

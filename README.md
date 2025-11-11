@@ -1,1 +1,1 @@
-# verona-day1
+# verona day1 server
